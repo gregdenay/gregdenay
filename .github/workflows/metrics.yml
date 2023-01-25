@@ -36,7 +36,7 @@ jobs:
       - name: Contributions
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.languages.svg
+          filename: metrics.plugin.contibs.svg
           token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           user: gregdenay
