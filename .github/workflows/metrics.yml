@@ -1,0 +1,48 @@
+name: Metrics
+on:
+  schedule: [{cron: "0 0 * * 1"}] # weekly updates
+  workflow_dispatch: # manual update
+  push: {branches: ["master", "main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Base
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          config_timezone: Europe/Paris
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, metadata
+          base_indepth: yes
+          repositories: 100
+          user: gregdenay
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          user: gregdenay
+          plugin_languages: yes 
+          plugin_languages_sections: most-used, recently-used
+          plugin_languages_indepth: yes
+          plugin_languages_other: no
+          plugin_languages_ignored: html, css
+          plugin_languages_details: bytes-size, percentage
+      - name: Contributions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          user: gregdenay
+          plugin_notable: yes
+          plugin_notable_repositories: yes
+          plugin_notable_types: commit, pull_request, issue
+          plugin_notable_self: yes
+          
+          
