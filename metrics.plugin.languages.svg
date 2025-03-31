@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="262" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="242" class="">
     <defs>
         <style/>
     </defs>
@@ -24,7 +24,7 @@
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="388.4256900833785" height="8" fill="#3572A5"/>
                     <rect mask="url(#languages-bar)" x="388.4256900833785" y="0" width="42.839514870318204" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="431.26520495369675" y="0" width="22.31185745768312" height="8" fill="#3ac486"/>
+                    <rect mask="url(#languages-bar)" x="431.26520495369675" y="0" width="22.31185745768312" height="8" fill="#ededed"/>
                     <rect mask="url(#languages-bar)" x="453.57706241137987" y="0" width="5.9395741074981165" height="8" fill="#ededed"/>
                     <rect mask="url(#languages-bar)" x="459.516636518878" y="0" width="0.35784416355018245" height="8" fill="#ededed"/>
                     <rect mask="url(#languages-bar)" x="459.87448068242816" y="0" width="0.12551931757181145" height="8" fill="#ededed"/>
@@ -46,7 +46,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3ac486" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Nextflow
                             </div>
@@ -110,15 +110,14 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 43.2kb of code in 78 edited files across 43 commits over last 13 days</small>
+                <small>estimation from 4.97kb of code in 25 edited files across 15 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="284.41845223090496" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="284.41845223090496" y="0" width="174.88580791530126" height="8" fill="#3ac486"/>
-                    <rect mask="url(#languages-bar)" x="459.3042601462062" y="0" width="0.6957398537937989" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="441.2244897959184" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="441.2244897959184" y="0" width="18.77551020408163" height="8" fill="#89e051"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -130,10 +129,12 @@
                                 Python
                             </div>
                             <small>
-                                <div>12.2 kB</div>
-                                <div>61.83%</div>
+                                <div>705 bytes</div>
+                                <div>95.92%</div>
                             </small>
                         </div>
+                    </section>
+                    <section>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -143,21 +144,7 @@
                             </div>
                             <small>
                                 <div>30 bytes</div>
-                                <div>0.15%</div>
-                            </small>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3ac486" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Nextflow
-                            </div>
-                            <small>
-                                <div>7.54 kB</div>
-                                <div>38.02%</div>
+                                <div>4.08%</div>
                             </small>
                         </div>
                     </section>
