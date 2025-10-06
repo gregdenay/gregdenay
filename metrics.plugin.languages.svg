@@ -16,7 +16,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.67bb of code in 13883 edited files across 951 commits</small>
+                <small>estimation from 1.67bb of code in 13892 edited files across 955 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -24,9 +24,9 @@
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="363.6156699092571" height="8" fill="#3572A5"/>
                     <rect mask="url(#languages-bar)" x="363.6156699092571" y="0" width="57.24191597544268" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="420.8575858846998" y="0" width="38.57746390062425" height="8" fill="#3ac486"/>
-                    <rect mask="url(#languages-bar)" x="459.43504978532405" y="0" width="0.5168272675681718" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="459.95187705289226" y="0" width="0.04812294710775069" height="8" fill="#198CE7"/>
+                    <rect mask="url(#languages-bar)" x="420.8575858846998" y="0" width="38.57746390062425" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.43504978532405" y="0" width="0.5168272675681718" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.95187705289226" y="0" width="0.04812294710775069" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -45,7 +45,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3ac486" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Nextflow
                             </div>
@@ -57,7 +57,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#198CE7" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 R
                             </div>
@@ -83,7 +83,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 JavaScript
                             </div>
@@ -99,7 +99,7 @@
                 <h3 class="field">Recently used languages</h3>
                 <small>No recent push activity found
                 
-                  over last 7 days</small>
+                  over last 14 days</small>
                 <div class="row fill-width">
                     <section>
                     </section>
