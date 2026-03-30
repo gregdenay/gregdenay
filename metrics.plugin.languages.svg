@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="204" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="224" class="">
     <defs>
         <style/>
     </defs>
@@ -11,22 +11,24 @@
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                         <path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v8.5a.25.25 0 01-.25.25h-6.5a.75.75 0 00-.53.22L4.5 14.44v-2.19a.75.75 0 00-.75-.75h-2a.25.25 0 01-.25-.25v-8.5zM1.75 1A1.75 1.75 0 000 2.75v8.5C0 12.216.784 13 1.75 13H3v1.543a1.457 1.457 0 002.487 1.03L8.061 13h6.189A1.75 1.75 0 0016 11.25v-8.5A1.75 1.75 0 0014.25 1H1.75zm5.03 3.47a.75.75 0 010 1.06L5.31 7l1.47 1.47a.75.75 0 01-1.06 1.06l-2-2a.75.75 0 010-1.06l2-2a.75.75 0 011.06 0zm2.44 0a.75.75 0 000 1.06L10.69 7 9.22 8.47a.75.75 0 001.06 1.06l2-2a.75.75 0 000-1.06l-2-2a.75.75 0 00-1.06 0z"/>
                     </svg>
-                    7 Languages
+                    8 Languages
                 </h2>
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.68bb of code in 13953 edited files across 978 commits</small>
+                <small>estimation from 1.68bb of code in 14536 edited files across 1172 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="363.0129897115644" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="363.0129897115644" y="0" width="56.07980838350256" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="419.09279809506694" y="0" width="40.353721133974304" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="459.4465192290412" y="0" width="0.5063348009704376" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="459.9528540300117" y="0" width="0.047145969988318805" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="380.0403724999312" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="380.0403724999312" y="0" width="46.02815758342733" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="426.06853008335855" y="0" width="33.24071272020322" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.30924280356174" y="0" width="0.41339972672333947" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.7226425302851" y="0" width="0.14500628169504892" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.8676488119802" y="0" width="0.09385861142443166" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.9615074234046" y="0" width="0.03849257659541299" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -38,8 +40,8 @@
                                 Python
                             </div>
                             <small>
-                                <div>562 kB</div>
-                                <div>78.92%</div>
+                                <div>720 kB</div>
+                                <div>82.62%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -50,8 +52,20 @@
                                 Nextflow
                             </div>
                             <small>
-                                <div>62.4 kB</div>
-                                <div>8.77%</div>
+                                <div>63 kB</div>
+                                <div>7.23%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Dockerfile
+                            </div>
+                            <small>
+                                <div>275 bytes</div>
+                                <div>0.03%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -76,8 +90,8 @@
                                 Shell
                             </div>
                             <small>
-                                <div>86.8 kB</div>
-                                <div>12.19%</div>
+                                <div>87.2 kB</div>
+                                <div>10.01%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -89,7 +103,19 @@
                             </div>
                             <small>
                                 <div>784 bytes</div>
-                                <div>0.11%</div>
+                                <div>0.09%</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                Groovy
+                            </div>
+                            <small>
+                                <div>178 bytes</div>
+                                <div>0.02%</div>
                             </small>
                         </div>
                     </section>
