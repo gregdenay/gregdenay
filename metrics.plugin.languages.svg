@@ -16,7 +16,7 @@
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 1.67bb of code in 14514 edited files across 1179 commits</small>
+                <small>estimation from 1.67bb of code in 14505 edited files across 1175 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
@@ -24,10 +24,10 @@
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="383.6616860442456" height="8" fill="#3572A5"/>
                     <rect mask="url(#languages-bar)" x="383.6616860442456" y="0" width="40.24922218375493" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="423.9109082280005" y="0" width="35.18155159724595" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="423.9109082280005" y="0" width="35.18155159724595" height="8" fill="#3ac486"/>
                     <rect mask="url(#languages-bar)" x="459.09245982524646" y="0" width="0.6301629917667262" height="8" fill="#ededed"/>
                     <rect mask="url(#languages-bar)" x="459.72262281701325" y="0" width="0.14501658806347256" height="8" fill="#ededed"/>
-                    <rect mask="url(#languages-bar)" x="459.86763940507666" y="0" width="0.09386528245562951" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="459.86763940507666" y="0" width="0.09386528245562951" height="8" fill="#4298b8"/>
                     <rect mask="url(#languages-bar)" x="459.9615046875323" y="0" width="0.03849531246775817" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
@@ -47,7 +47,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3ac486" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Nextflow
                             </div>
@@ -109,7 +109,7 @@
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#ededed" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#4298b8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
                                 Groovy
                             </div>
